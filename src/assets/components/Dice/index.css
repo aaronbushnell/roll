@@ -1,0 +1,62 @@
+.Dice {
+  height: calc(100vh - 2rem);
+
+  &__options {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    height: 60%;
+  }
+
+  &__option {
+    touch-action: manipulation;
+    height: 100%;
+    background: #eee;
+  }
+
+  &__option:last-of-type {
+    grid-column: 1 / -1;
+  }
+
+  &__results {
+    height: 40%;
+    display: flex;
+  }
+
+  &__rolls {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  &__rolls {
+    margin: 1rem 0 0 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__rolls li {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__totals {
+    align-self: center;
+    margin-left: 5%;
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+
+  &__total {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 0 0.5rem;
+    text-align: center;
+  }
+
+  &__reset {
+    touch-action: manipulation;
+    height: 3rem;
+    width: 100%;
+    background: #eee;
+  }
+}
