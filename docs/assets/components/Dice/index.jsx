@@ -57,7 +57,7 @@ export default class Dice extends React.Component {
           <div className="Dice__totals">
             <h1 className="Dice__total">{this.state.total}</h1>
             <button className="Dice__reset" onClick={this.reset}>
-              Reset
+              Clear all rolls
             </button>
           </div>
         </div>
