@@ -6,7 +6,7 @@
     "lint": "./tasks/subtasks/lint.sh",
     "start": "./tasks/watch.sh",
     "build": "./tasks/build.sh",
-    "deploy": "./tasks/deploy.sh"
+    "gh": "yarn build && cp -r ./src/ ./docs/"
   },
   "husky": {
     "hooks": {
