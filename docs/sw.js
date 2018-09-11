@@ -8,7 +8,7 @@ self.addEventListener("install", e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache
-        .addAll(["/", "compiled/app.css", "compiled/app.js"])
+        .addAll(["/roll/", "compiled/app.css", "compiled/app.js"])
         .then(() => self.skipWaiting());
     })
   );
