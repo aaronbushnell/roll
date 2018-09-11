@@ -17,5 +17,8 @@
   <div data-dice></div>
   <noscript>You need JavaScript to use Roll</noscript>
   <script src="compiled/app.js" async></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js') }
+  </script>
 </body>
 </html>
