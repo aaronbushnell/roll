@@ -3,12 +3,12 @@
   "name": "Roll",
   "icons": [
     {
-      "src": "http://roll.aaronmbushnell.com/images/icons-192.png",
+      "src": "https://aaronbushnell.github.io/roll/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "http://roll.aaronmbushnell.com/images/icons-512.png",
+      "src": "https://aaronbushnell.github.io/roll/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
