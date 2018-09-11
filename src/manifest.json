@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/roll/",
   "background_color": "#3c405e",
   "display": "standalone",
   "theme_color": "#3c405e"
