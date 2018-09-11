@@ -10,8 +10,8 @@ module.exports = {
     vendor: ["picturefill"]
   },
   output: {
-    path: path.resolve(__dirname, "src/_compiled"),
-    publicPath: "/_compiled/",
+    path: path.resolve(__dirname, "src/compiled"),
+    publicPath: "/compiled/",
     filename: "[name].js"
   },
   module: {

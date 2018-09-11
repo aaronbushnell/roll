@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-rm -rf ./src/_compiled;
+rm -rf ./src/compiled;

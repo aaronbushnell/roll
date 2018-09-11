@@ -2,7 +2,7 @@ const settings = require("../settings.js");
 const Version = require("node-version-assets");
 const globby = require("globby");
 
-const assets = ["src/_compiled/*.css", "src/_compiled/*.js"];
+const assets = ["src/compiled/*.css", "src/compiled/*.js"];
 
 (async () => {
   try {
